@@ -1,0 +1,68 @@
+:root {
+  --red: #c34e4c;
+  --beige: #ffeae1;
+  --darkgreen: #2b5a6d;
+  --turquoise: #a6e8e2;
+  --orange: #fbaa82;
+  --primary-font: "Proxima Nova";
+  --secondary-font: "Caviar Dreams";
+}
+
+.jumbotron {
+  height: 75vh;
+  background-color: var(--red);
+  margin: 0;
+}
+
+.card {
+  width: 18rem;
+}
+
+.title {
+  font-size: 6rem;
+}
+
+.subtitle {
+  font-size: 5rem;
+}
+
+.btn {
+  background-color: var(--red);
+  border: none;
+}
+
+.btn:hover {
+  outline: none;
+  border: none;
+  background-color: var(--orange);
+}
+
+li {
+  word-wrap: break-word;
+}
+
+.carousel-item > img {
+  width: 50vw;
+  height: 75vh;
+  object-fit: contain;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  .title,
+  .subtitle {
+    font-size: 3rem;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+}
