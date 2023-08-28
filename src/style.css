@@ -1,5 +1,5 @@
 :root {
-  --red: #c34e4c;
+  --lightblue: #87ceeb;
   --beige: #ffeae1;
   --darkgreen: #2b5a6d;
   --turquoise: #a6e8e2;
@@ -10,7 +10,7 @@
 
 .jumbotron {
   height: 75vh;
-  background-color: var(--red);
+  background-color: var(--lightblue);
   margin: 0;
 }
 
@@ -47,11 +47,21 @@ li {
   object-fit: contain;
 }
 
+.subtitle_dark {
+  color: black;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .title,
   .subtitle {
     font-size: 3rem;
+  }
+
+  .carousel-item > img {
+    width: 75vw;
+    height: 75vh;
+    object-fit: contain;
   }
 }
 
