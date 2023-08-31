@@ -1,11 +1,23 @@
 :root {
   --lightblue: #87ceeb;
   --beige: #ffeae1;
-  --darkgreen: #2b5a6d;
+  --red: #d60909;
   --turquoise: #a6e8e2;
-  --orange: #fbaa82;
+  --darkred: #990606;
   --primary-font: "Proxima Nova";
   --secondary-font: "Caviar Dreams";
+}
+
+.logo {
+  height: 3vh;
+}
+
+.footer-logo {
+  max-width: 15vw;
+}
+
+.jumbotron-logo {
+  max-width: 75vw;
 }
 
 .jumbotron {
@@ -27,14 +39,14 @@
 }
 
 .btn {
-  background-color: var(--darkgreen);
+  background-color: var(--red);
   border: none;
 }
 
 .btn:hover {
   outline: none;
   border: none;
-  background-color: var(--orange);
+  background-color: var(--darkred);
 }
 
 li {
@@ -63,14 +75,28 @@ li {
     height: 75vh;
     object-fit: contain;
   }
+
+  .jumbotron {
+    height: 50vh;
+  }
+
+  .footer-logo {
+    max-width: 50vw;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (max-width: 768px) {
+  .footer-logo {
+    max-width: 50vw;
+  }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (max-width: 992px) {
+  /* .footer-logo {
+    max-width: 50vw;
+  } */
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
