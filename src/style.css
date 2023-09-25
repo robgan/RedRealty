@@ -63,6 +63,11 @@ li {
   color: black;
 }
 
+.thumbnail {
+  max-width: 500px;
+  max-height: 500px;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) {
   .title,
@@ -82,6 +87,11 @@ li {
 
   .footer-logo {
     max-width: 50vw;
+  }
+
+  .thumbnail {
+    max-width: 300px;
+    max-height: 300px;
   }
 }
 
