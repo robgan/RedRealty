@@ -16,6 +16,12 @@
   max-width: 15vw;
 }
 
+.alert {
+  text-align: center;
+  font-size: xx-large;
+  margin: 0;
+}
+
 .jumbotron-logo {
   max-width: 75vw;
 }
